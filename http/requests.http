@@ -1,25 +1,25 @@
 # Product
 
-GET localhost:8080/products
+GET https://logical-fort-425301-p0.uc.r.appspot.com/products
 ###
 
-GET localhost:8080/products/search?value=coca
+GET https://logical-fort-425301-p0.uc.r.appspot.com/products/search?value=coca
 ###
 
 
 # Sales
 
-GET localhost:8080/sales/search?date=2024-06-01
+GET https://logical-fort-425301-p0.uc.r.appspot.com/sales/search?date=2024-06-01
 ###
 
-GET localhost:8080/sales/report?start-date=2024-06-01&end-date=2024-06-03
+GET https://logical-fort-425301-p0.uc.r.appspot.com/sales/report?start-date=2024-06-01&end-date=2024-06-03
 ###
 
-POST localhost:8080/sales
+POST https://logical-fort-425301-p0.uc.r.appspot.com/sales
 Content-Type: application/json
 
 {
-  "product_id": "700c5a90-c308-4547-a1d0-952d995585e3",
-  "customer_name": "Pedro",
-  "quantity_sold": 3
+  "product_id": "85de6b28-a553-4c15-81e7-eacc72e74c88",
+  "customer_name": "Sara",
+  "quantity_sold": 2
 }
