@@ -1,0 +1,25 @@
+# Product
+
+GET localhost:8080/products
+###
+
+GET localhost:8080/products/search?value=coca
+###
+
+
+# Sales
+
+GET localhost:8080/sales/search?date=2024-06-01
+###
+
+GET localhost:8080/sales/report?start-date=2024-06-01&end-date=2024-06-03
+###
+
+POST localhost:8080/sales
+Content-Type: application/json
+
+{
+  "product_id": "700c5a90-c308-4547-a1d0-952d995585e3",
+  "customer_name": "Pedro",
+  "quantity_sold": 3
+}
